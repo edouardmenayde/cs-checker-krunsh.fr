@@ -1,0 +1,6 @@
+{
+  "uuid": "cs-checker@krunsh",
+  "name": "Cryptostorm darknet connection checker",
+  "description": "Let you know in a glance if you are connected to the Cryptostorm darknet",
+  "max-instances": "1"
+}
