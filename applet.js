@@ -22,7 +22,7 @@ MyApplet.prototype = {
     _init: function (orientation, panel_height, instance_id) {
         Applet.IconApplet.prototype._init.call(this, orientation, panel_height, instance_id);
 
-        this.set_applet_tooltip(_("Click check status !"));
+        this.set_applet_tooltip(_("Click to check status !"));
         this.set_applet_icon_path(APPLET_ICON_DISCONNECTED);
 
         this.settings = {
