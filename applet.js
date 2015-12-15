@@ -1,4 +1,4 @@
-imports.searchPath.push(imports.ui.appletManager.appletMeta["cs-checker@krunsh"].path);
+imports.searchPath.push(imports.ui.appletManager.appletMeta["cs-checker-krunsh.fr"].path);
 
 const MainLoop = imports.mainloop;
 const Lang = imports.lang;
@@ -6,8 +6,8 @@ const Lang = imports.lang;
 const Applet = imports.ui.applet;
 const Soup = imports.gi.Soup;
 
-const APPLET_ICON_DISCONNECTED = imports.ui.appletManager.appletMeta['cs-checker@krunsh'].path + '/images/not-connected.png';
-const APPLET_ICON_CONNECTED = imports.ui.appletManager.appletMeta["cs-checker@krunsh"].path + '/images/connected.png';
+const APPLET_ICON_DISCONNECTED = imports.ui.appletManager.appletMeta['cs-checker-krunsh.fr'].path + '/images/not-connected.png';
+const APPLET_ICON_CONNECTED = imports.ui.appletManager.appletMeta["cs-checker-krunsh.fr"].path + '/images/connected.png';
 
 const _httpSession = new Soup.SessionAsync();
 Soup.Session.prototype.add_feature.call(_httpSession, new Soup.ProxyResolverDefault());
